@@ -1,0 +1,42 @@
+[
+    {
+        "userName" : "John",
+        "groupName" : "Journalist" 
+    },
+    {
+        "userName" : "Mary",
+        "groupName" : "Journalist" 
+    },
+    {
+        "userName" : "Phillip",
+        "groupName" : "Moderator" 
+    },
+    {
+        "userName" : "Ann",
+        "groupName" : "Moderator" 
+    },
+    {
+        "userName" : "Chloe",
+        "groupName" : "Admin" 
+    },
+    {
+        "userName" : "Jade",
+        "groupName" : "Admin" 
+    },
+    {
+        "userName" : "Tor",
+        "groupName" : "Journalist" 
+    },
+    {
+        "userName" : "Loki",
+        "groupName" : "Admin" 
+    },
+    {
+        "userName" : "Paul",
+        "groupName" : "Moderator" 
+    },
+    {
+        "userName" : "Noah",
+        "groupName" : "Journalist" 
+    }
+]

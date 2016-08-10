@@ -1,0 +1,112 @@
+.container { 
+    background-color: #E6E2EB;   
+}
+
+.col-md-12 {
+    height: 50px;
+}
+
+.menu-left, .menu-center, .menu-right  {
+    height: 50px;
+}
+
+.styled-select select {
+   background: transparent;
+   width: 100px;
+   padding: 5px;
+   font-size: 14px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   }
+
+.styled-select {
+   width: 100px;
+   height: 34px;
+   overflow: hidden;
+   border: 1px solid #ccc;
+   }
+
+.menu-left {
+    display: flex;
+}
+
+.menu-grid {
+    width: 20px;
+    display: block;
+    margin: 15px;
+}
+.grid {
+    height: 2px;
+    width: 100%;
+    background: #428bca;
+    margin-top: 3px;  
+} 
+
+.menu {
+    margin: 10px 0px;
+    color: #428bca;
+    font-size: 20px;
+}
+
+.menu-center {
+    display: flex;
+}
+
+.image-home {
+    width: 20px;
+    margin: 14px 3px;
+}
+
+.menu-center p {
+    margin: 9px 0;
+    font-size: 20px;
+}
+
+.main-left .mainLeftBtn {
+    display: block;
+    margin: 5px 0 5px 0;
+}
+
+.Addgroup, .Adduser {
+    display: flex;
+    margin-bottom: 20px;
+}
+.userName {
+    margin: 0 8px 0 8px;
+}
+.main-left .usergroup-text {
+    margin: 0 0 0 7px;
+}
+
+.main-right {
+    background: #fefefe;
+}
+
+.form-group {
+    display: flex;
+    margin-top: 8px;
+}
+
+thead .glyphicon {
+    font-size: 10px;
+    margin: 13px 0 0 2px;
+    position: absolute;
+}
+
+thead th:first-child {
+    cursor: pointer;
+}
+
+tbody tr td:first-child {
+    /* make text in the center */
+    
+}
+
+
+
+
+tbody {
+    
+}
