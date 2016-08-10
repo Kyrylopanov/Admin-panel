@@ -38,7 +38,6 @@ $(document).ready(function ( ) {
     });
     
     
-    
     var groupTable = function(){
         //Clean tbody
         $('tbody').empty();
@@ -46,8 +45,11 @@ $(document).ready(function ( ) {
         //If click one button (filter)
         if (groupFilter)
         userArray = $.grep(userArray , function(n ,i){
-            return(n.groupName == groupFilter)
-        })
+            return(n.groupName == groupFilter);
+        });
+        
+        //eset groupFilter
+        groupFilter = '';
             
             
          $(userArray).each(function(index){
@@ -64,14 +66,18 @@ $(document).ready(function ( ) {
         $('.main-left').empty();
         
         
-        $(userArray).each(function(index){
-            groupDOM[index] = '<button type="button" id="' + userArray[index].groupName + '" class="btn btn-primary btn-block">' + userArray[index].groupName + '</button>'
+        //Function for unique users and groups
+		$(userArray).each(function (index) {
+			//inArray - search var in array. If found 1, else -1
+            if ($.inArray(userArray[index].groupName, groupDOM) === -1)
+				//Sort by name
+				groupDOM.push(userArray[index].groupName);
         });
-        groupDOM = $.unique(groupDOM);
-        console.log(groupDOM);
-        groupDOM.sort();
-        $(groupDOM).each(function(index){
-            $('.main-left').append(groupDOM[index]);
+		groupDOM.sort();
+		
+		//Enter the buttons
+		$(groupDOM).each(function (index) {
+            $('.main-left').append('<button type="button" id="' + groupDOM[index] + '" class="btn btn-primary btn-block">' + groupDOM[index] + '</button>');
         });
     }; //End generate Buttons AJAX
     
