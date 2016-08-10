@@ -29,6 +29,15 @@ $(document).ready(function ( ) {
         $('.Addgroup').toggle(500);
     });
     
+    $('#groupPage').click(function(){
+        location.href = "group_detail.html";
+    });
+    
+    $('#userPage').click(function(){
+        location.href = "index.html";
+    });
+    
+    
     
     var groupTable = function(){
         //Clean tbody
