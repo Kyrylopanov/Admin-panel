@@ -64,9 +64,14 @@
     font-size: 20px;
 }
 
-.main-left .mainLeftBtn, #userPage {
+.main-left .mainLeftBtn, #groupPage {
     display: block;
     margin: 5px 0 5px 0;
+    width: 170px;
+}
+
+#userPage {
+  margin: 5px 0 5px 0;  
 }
 
 .Addgroup, .Adduser {
@@ -99,14 +104,5 @@ thead th:first-child {
     cursor: pointer;
 }
 
-tbody tr td:first-child {
-    /* make text in the center */
-    
-}
 
 
-
-
-tbody {
-    
-}
