@@ -64,7 +64,7 @@
     font-size: 20px;
 }
 
-.main-left .mainLeftBtn {
+.main-left .mainLeftBtn, #userPage {
     display: block;
     margin: 5px 0 5px 0;
 }
